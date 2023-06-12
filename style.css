@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/wall.jpg);
+    background-size: cover;
+    background-position:center; 
+    margin-right: 0%;
+}
+
+.head.sticky{
+    border-bottom: .1rem solid rgba(0,0,0.2);
+}
+
+nav{
+      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: fixed;
+}
+span{
+    color:burlywood ;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    margin:0 30px;
+    
+}
+nav ul li a{
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    position: fixed;
+}
+nav ul li a:hover{
+    color: white;
+    transition: 0s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h2{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 65px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 38opx;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_us h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.about_us h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.about_us p{
+    color: rgba(230, 180, 110, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+}
+button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+
+.card{
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .5s ease;
+    border: 2rem solid var(#cf2828);
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #e81c1c;
+}
+.card:hover{
+    border-color: #eb2323;
+    transform: scale(1.02);
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: antiquewhite;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.skills{
+    
+    background: #191919;
+}
+   
+.skills h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.deco h4{
+    color: #e9e0ec;
+    font-weight:bolder;
+    position: absolute;
+    
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.contain .deco{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(#eb2323);
+    overflow: hidden;
+    display: flex;
+}
+.deco img{
+    width: 350px;
+    height: 275px;
+}
+
+.deco:hover img{
+    width: 100%;
+    transition: .5s ease;
+}
+.deco .layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,1), var(#5f3e3e));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.deco:hover .layer{
+    transform: translateY(0);
+}
+
+.layer h4{
+    font-size: 2rem;
+    
+}
+
+.layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(#e81c1c);
+    border-radius: 50%;
+    
+}
+
+.layer a i{
+    font-size: 2rem;
+    color: var(#ee2222);
+   
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.footicon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #eddada;
+    border-radius: .8rem;
+}
+.footicon a:hover{
+    box-shadow: 0 0 1rem #cf2828;
+}
+
+.footicon a i{
+    font-size: 2.4rem;
+    color: #c0b1b1;
+}
+.con{
+    
+    background: #191919;
+    justify-content: center;
+}
+
+.con h2{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.con p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.con form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.con form .inputbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con form .inputbox input,
+.con form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #858585;
+    background: #c0b1b1;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.con form .inputbox input{
+    width: 49%;
+}
+
+.con form .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.con form .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size:55%;
+    }
+}
+
+section{
+    padding: 10rem 3% 3rem;
+}
+.footer{
+    padding:2rem 3%;
+}
